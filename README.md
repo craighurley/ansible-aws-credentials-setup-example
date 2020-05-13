@@ -6,12 +6,14 @@ You need to create a `./vars/setup.yaml` file, but **do not commit it in unencry
 
 ```yaml
 ---
+# signin_profiles are not manditory; they are used to create the firefox containers config.
 signin_profiles:
   - name: foo
     signin_url_prefix: foo-identity
   - name: baz
     signin_url_prefix: baz-organisation
 
+# credentials_profiles are manditory.
 credentials_profiles:
   - name: foo
     aws_access_key_id: ACCESS_KEY_ID_FOO
@@ -29,8 +31,9 @@ credentials_profiles:
     aws_secret_access_key: SECRET_ACCESS_KEY_BAZ
     region: us-east-1
 
+# accounts are manditory.
 accounts:
-- name: foo-sandpit
+  - name: foo-sandpit
     account_id: '111111111111'
     credentials_profile: foo
     signin_url_profile: foo
