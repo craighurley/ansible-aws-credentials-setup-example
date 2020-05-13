@@ -1,0 +1,25 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{json,json.j2}]
+indent_size = 2
+
+[*.{yaml,yml,yaml.j2,yamllint}]
+indent_size = 2
+
+[*.erb]
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+[{*.rb,Vagrantfile}]
+indent_size = 2
+
+[Makefile]
+indent_style = tab

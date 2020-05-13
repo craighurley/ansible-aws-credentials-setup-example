@@ -1,0 +1,17 @@
+.DS_Store
+.aws
+.python-version
+.vagrant/
+.vscode/
+*.log
+*.retry
+**/__pycache__/
+/.Trash/
+/facts
+/fetched
+/playbooks/tmp.yaml
+/tmp/*
+/vars/*
+
+# overrides
+!.gitkeep
