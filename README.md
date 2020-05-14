@@ -74,7 +74,7 @@ ansible-vault edit ./vars/setup.yaml
 
 ### Credentials
 
-Create AWS credentials for a given client:
+Create AWS config and credentials files:
 
 ```sh
 ansible-playbook ./playbooks/credentials.yaml
