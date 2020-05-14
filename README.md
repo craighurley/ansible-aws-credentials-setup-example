@@ -25,7 +25,7 @@ credentials_profiles:
     aws_access_key_id: saml
     aws_secret_access_key: saml
     region: us-west-1
-  # add config for IAM user that does not use MFA
+  # add config for IAM user that does not use MFA (or roles in this example)
   - name: baz
     aws_access_key_id: ACCESS_KEY_ID_BAZ
     aws_secret_access_key: SECRET_ACCESS_KEY_BAZ
