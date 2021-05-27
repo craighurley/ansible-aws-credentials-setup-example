@@ -15,3 +15,4 @@
 
 # overrides
 !.gitkeep
+!.pre-commit-config.yaml

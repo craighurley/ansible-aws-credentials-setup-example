@@ -1,4 +1,4 @@
-# aws-credentials-setup
+# aws-credentials-setup-example
 
 ## Sample ./vars/setup.yaml
 
